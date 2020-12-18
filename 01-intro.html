@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>introJs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Intro.js - Better introductions for websites and features with a step-by-step guide for your projects.">
+    <meta name="author" content="Afshin Mehrabani (@afshinmeh) in usabli.ca group">
+    <link href="https://cdn.bootcdn.net/ajax/libs/intro.js/3.0.1/introjs.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/intro.js/3.0.1/introjs-rtl.css" rel="stylesheet">
+    <style>
+        .span6 {
+            width: 100%;
+            height: 400px;
+        }
+
+        .container-narrow {
+            width: 1100px;
+            height: 1100px;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        main {
+            width: 100%;
+            height: 1000px;
+            background-color: burlywood;
+            display: grid;
+            grid-template-columns: repeat(3, 33.3%);
+        }
+
+        main div {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button onclick="startIntro()">Start</button> -->
+    <div class="container-narrow">
+        <nav>
+            <button onclick="startIntro()">Start</button>
+            <!--  data-title="第一步" data-intro="1" -->
+            <h1 class="step1">第一步</h1>
+        </nav>
+        <main>
+            <div class="red">
+                <p class="step3">第三步</p>
+            </div>
+            <div class="green">
+                <p class="step5">第五步</p>
+            </div>
+            <div class="gray">
+                <p class="step4">第四步</p>
+            </div>
+        </main>
+        <footer>
+            <p class="step2">校校校校校校校校校宝</p>
+            <h3 class="step6">
+                @@@@@@@@@@@
+            </h3>
+
+        </footer>
+    </div>
+    <!-- <script type="text/javascript" src="../../dist/intro.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/intro.js/3.0.1/intro.min.js"></script>
+    <script type="text/javascript">
+        function startIntro() {
+            var intro = introJs();
+            intro.setOptions({
+                hints: [
+                    { hint: 'First hint', element: '#new-feature' },
+                    { hint: 'Second hint', element: '#new-button', hintAnimation: false }
+                ],
+                steps: [
+                    // {
+                    //     intro: "Hello world!"
+                    // },
+                    {
+                        element: '.step1',
+                        intro: "<em>我是第一步</em>"
+                    },
+                    {
+                        element: '.step2',
+                        intro: "我是第二步",
+                        position: 'right'
+                    },
+                    {
+                        element: '.step3',
+                        intro: '我是第三步',
+                        position: 'left'
+                    },
+                    {
+                        element: '.step4',
+                        intro: "我是第四步",
+                        position: 'bottom'
+                    },
+                    {
+                        element: '.step5',
+                        intro: '倒数第二步'
+                    },
+                    {
+                        element: '.step6',
+                        intro: '结束了'
+                    }
+                ],
+                // 下一步按钮名称
+                nextLabel: '下一步',
+                // 上一步按钮名称
+                prevLabel: '上一步',
+                // 跳过按钮名称
+                skipLabel: '跳过',
+                // 结束引导按钮名称
+                doneLabel: '关闭',
+                // 在第一步时隐藏[上一步]按钮 
+                hidePrev: true,
+                // 在最后一步时隐藏[下一步]按钮 
+                hideNext: true,
+                // 默认工具提示位置
+                tooltipPosition: { top: 0 },
+                // 按“退出”按钮时退出介绍，默认为true
+                exitOnEsc: true,
+                // 点击遮罩是否退出引导 默认为true
+                exitOnOverlayClick: false,
+                // 显示步数数字 默认true
+                showStepNumbers: true,
+                // 是否可以用键盘来操作 默认true
+                keyboardNavigation: true,
+                // 是否显示默认按钮 上一步、下一步和跳过 默认true
+                showButtons: true,
+                // 是否显示点的按钮 默认true
+                showBullets: true,
+                // 是否显示当前引导进度 默认false
+                showProgress: true,
+                // 是否自动滚动到突出显示的元素，如果它是在视窗之外 ????
+                scrollToElement: true,
+                scrollTo: true,
+                // 滚动的填充。默认是30px。当scrollToElement为真时应用
+                scrollPadding: 100,
+                // 遮罩的透明度 最低0 最高1 但是1也不是全黑
+                overlayOpacity: 0,
+                // 是否禁用与突出显示框内的元素的交互
+                disableInteraction: true,
+            });
+
+            intro.start();
+        }
+
+        function exitIntro() {
+            var intro = introJs();
+            intro.exit()
+        }
+    </script>
+</body>
+
+</html>

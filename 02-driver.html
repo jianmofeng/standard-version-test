@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dirverJs</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/driver.js/0.9.7/driver.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/driver.js/0.9.7/driver.min.css" rel="stylesheet">
+    <style>
+        .span6 {
+            width: 100%;
+            height: 400px;
+        }
+
+        .container-narrow {
+            width: 1100px;
+            height: 1100px;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        main {
+            width: 100%;
+            height: 1000px;
+            background-color: burlywood;
+            display: grid;
+            grid-template-columns: repeat(3, 33.3%);
+        }
+
+        main div {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-narrow">
+        <nav class="step1">
+            <button onclick="onStart()">Start</button>
+            <button onclick="alert()">222</button>
+            <h1>第一步</h1>
+        </nav>
+        <main>
+            <div class="red">
+                <p class="step3">第三步</p>
+            </div>
+            <div class="green">
+                <p class="step5">第五步</p>
+            </div>
+            <div class="gray">
+                <p class="step4">第四步</p>
+            </div>
+        </main>
+        <footer>
+            <p class="step2">校校校校校校校校校宝</p>
+            <h3 class="step6">
+                @@@@@@@@@@@
+            </h3>
+
+        </footer>
+    </div>
+</body>
+<script>
+    let driver = null;
+    const tourSteps = [{
+        element: '.step1',
+        popover: {
+            className: 'first-step-popover-class',
+            title: '<em>1111</em>',
+            description: '<b>这是第一步</b>',
+            // position: 'left'
+        }
+    },
+    {
+        element: '.step2',
+        popover: {
+            title: 'Title on Popover',
+            description: '这是第二步',
+            // position: 'top'
+        }
+    },
+    {
+        element: '.step3',
+        popover: {
+            title: 'Title on Popover',
+            description: '这是第三步',
+            // position: 'right'
+        }
+    }, {
+        element: '.step4',
+        popover: {
+            title: 'Title on Popover',
+            description: '这是第四步',
+            // position: 'right'
+        }
+    }, {
+        element: '.step5',
+        popover: {
+            title: 'Title on Popover',
+            description: '这是第五步',
+            // position: 'right'
+        }
+    },
+    {
+        element: '.step6',
+        popover: {
+            title: 'Title on Popover',
+            description: '结束',
+            // position: 'right'
+        }
+    }];
+
+    option()
+    // Start the introduction
+    function onStart() {
+        // driver.start();
+        console.log(driver.hasPreviousStep());
+        driver.start();
+        // console.log(driver.isActivated);
+    }
+    function onNext() {
+        driver.moveNext();
+        // driver.start();
+    }
+    function hightlight() {
+        driver.highlight(1)
+    }
+    // 事件
+    function on() {
+        const isActivated = driver.isActivated; // 检查driver是否运行
+        driver.moveNext();     // 移动到下一步
+        driver.movePrevious(); // 移动到上一步
+        driver.start(stepNumber = 1);  // start的时候指定步数
+        driver.highlight(string | stepDefinition); // 指定元素高亮 参数可以写元素或步数实现
+        driver.reset(); // 重置driver
+        driver.hasHighlightedElement(); // 检查是否有高亮显示的元素
+        driver.hasNextStep(); // 检查是否有下一步
+        driver.hasPreviousStep(); // 检查是否有上一步
+
+        // 阻止当前移动。在' onNext '或' onPrevious '，如果你想执行一些异步任务和手动移动到下一步
+        driver.preventMove();
+
+        // 获取屏幕上当前高亮显示的元素
+        const activeElement = driver.getHighlightedElement();
+        const lastActiveElement = driver.getLastHighlightedElement();
+        activeElement.getCalculatedPosition(); // 获取活动元素的屏幕坐标
+        activeElement.hidePopover();  // Hide the popover
+        activeElement.showPopover();  // Show the popover
+
+        activeElement.getNode();  // 获取第一步的DOM元素
+    }
+    // 配置项
+    function option() {
+        driver = new Driver({
+            className: 'scoped-class', // 弹窗的class名称
+            animate: true,  // 是否有动画
+            opacity: 0.75,  // 透明度
+            padding: 1,    // 元素笼罩边框的边距
+            allowClose: false, // 点击遮罩是否关闭
+            overlayClickNext: true, // 点击遮罩是否移动到下一步
+            doneBtnText: '结束', // 结束按钮名称
+            closeBtnText: '关闭', // 关闭按钮名称
+            nextBtnText: '下一步', // 下一步按钮名称
+            prevBtnText: '上一步', // 上一步按钮名称
+            showButtons: true, // 是否显示跳转按钮
+            keyboardControl: true, // 键盘左右键是否可以操作步骤
+            scrollIntoViewOptions: {
+                element: '.step3'
+            }, // 建议使用'scrollIntoViewOptions'来使它一开始跳转到哪个元素
+            onHighlightStarted: (Element) => {
+                console.log('heighlight', Element);
+            }, // 将要高亮时调用
+            onHighlighted: (Element) => { }, // 高亮时调用
+            onDeselected: (Element) => { }, // 取消选中时调用
+            onReset: (Element) => { },      // 被重置时调用
+            onNext: (Element) => { },      // 每次点击下一步按钮时都会触发
+            onPrevious: (Element) => { },  // 每次点击上一步按钮时都会触发
+        })
+        driver.defineSteps(tourSteps)
+    }
+</script>
+
+</html>
