@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.1.3",
+  "version": "0.2.3",
   "description": "这是一个standard-version预研项目",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,13 @@
   "homepage": "https://github.com/jianmofeng/standard-version-test#readme",
   "devDependencies": {
     "standard-version": "^9.0.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "skip": {
+        "changelog": true
+      },
+      "release": "standard-version"
+    }
   }
 }
