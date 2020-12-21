@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -26,7 +25,8 @@
       "skip": {
         "changelog": true
       },
-      "release": "standard-version"
+      "release": "standard-version",
+      "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
     }
   }
 }
