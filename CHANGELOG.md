@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.11-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10...v0.2.11-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **范围:** 增加了husky和commitlint ([6ee1303](https://github.com/jianmofeng/standard-version-test/commit/6ee13030746b11446250e21ee78c7d644f353300))
+
 ### [0.2.10](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.5...v0.2.10) (2020-12-22)
 
 
