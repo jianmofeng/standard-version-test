@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10-beta.5](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.4...v0.2.10-beta.5) (2020-12-22)
+
 ### [0.2.10-beta.4](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.3...v0.2.10-beta.4) (2020-12-22)
 
 ### [0.2.10-beta.3](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.2...v0.2.10-beta.3) (2020-12-22)
