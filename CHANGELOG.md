@@ -1,6 +1,16 @@
 # Changelog
-> CHANGELOG生成
-***
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.3.0-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.11-beta.0...v0.3.0-beta.0) (2020-12-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* 看看破坏性更新是否会生成在CHANGELOG中
+
+* cHANGELOG修改 ([24bedbd](https://github.com/jianmofeng/standard-version-test/commit/24bedbd174f543182130788e857b83cc49703976))
+
 ### [0.2.11-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10...v0.2.11-beta.0) (2020-12-22)
 
 
