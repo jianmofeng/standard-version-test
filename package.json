@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.2.10-beta.5",
+  "version": "0.2.10",
   "description": "这是一个standard-version预研项目",
   "main": "index.js",
   "scripts": {

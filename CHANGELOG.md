@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.5...v0.2.10) (2020-12-22)
+
+
+### Features
+
+* **package修改:** xiugai ([021c83c](https://github.com/jianmofeng/standard-version-test/commit/021c83c15a63c0653a012a9f1c664a169c5fa908))
+
+
+### Bug Fixes
+
+* **02:** 文件修改 ([2976c12](https://github.com/jianmofeng/standard-version-test/commit/2976c129634364fdafc7734440d451e0ca7561ae))
+
 ### [0.2.10-beta.5](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.4...v0.2.10-beta.5) (2020-12-22)
 
 ### [0.2.10-beta.4](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.3...v0.2.10-beta.4) (2020-12-22)
