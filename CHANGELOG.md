@@ -1,3 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.7-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.6...v0.2.7-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **src:** 修复问题 ([d08646e](https://github.com/jianmofeng/standard-version-test/commit/d08646e57e76604201bc8b6bc8b3e17b5b65d230))
+* 1111 ([6b7903c](https://github.com/jianmofeng/standard-version-test/commit/6b7903c6c5f028fe75897d99cdb75bc55f748f71))
+
 ## [0.2.6](https://github.com/jianmofeng/standard-version-test/compare/v0.2.6-bate.0...v0.2.6) (2020-12-21)
 
 
@@ -28,6 +40,3 @@
 ### Reverts
 
 * Revert "ignore修改" ([941b089](https://github.com/jianmofeng/standard-version-test/commit/941b0894f6cae12e180ba05b8d164cc6d778cfc5))
-
-
-
