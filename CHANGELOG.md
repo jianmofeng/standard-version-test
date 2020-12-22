@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.1...v0.3.1-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **none:** 1111 ([839b634](https://github.com/jianmofeng/standard-version-test/commit/839b634915850cb3cd1c4da47a6f5c367acdee41))
+
 ## [0.3.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.1...v0.3.0) (2020-12-22)
 
 ## [0.3.0-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.0...v0.3.0-beta.1) (2020-12-22)
