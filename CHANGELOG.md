@@ -1,7 +1,6 @@
 # Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
+> CHANGELOG生成
+***
 ### [0.2.11-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10...v0.2.11-beta.0) (2020-12-22)
 
 
