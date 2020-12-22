@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10-beta.3](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.2...v0.2.10-beta.3) (2020-12-22)
+
+
+### Features
+
+* shanchu... ([f1826a0](https://github.com/jianmofeng/standard-version-test/commit/f1826a0d10099b9a76888402ed9373c4f400985c))
+
+
+### Bug Fixes
+
+* 删除数字 ([b9715fe](https://github.com/jianmofeng/standard-version-test/commit/b9715fe3d9ee877323531d132f1c8ce4e38f60d0))
+
 ### [0.2.10-beta.2](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.1...v0.2.10-beta.2) (2020-12-22)
 
 
