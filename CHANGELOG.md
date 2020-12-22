@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.2.7-beta.0...v0.2.7-beta.1) (2020-12-22)
+
+
+### Bug Fixes
+
+* 假装修复问题 ([5e29b1c](https://github.com/jianmofeng/standard-version-test/commit/5e29b1ca733312be9b1a84199c3428ac11c47009))
+
 ### [0.2.7-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.6...v0.2.7-beta.0) (2020-12-22)
 
 
