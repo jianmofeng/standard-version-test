@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "commit": "git-cz",
+    "release:major": "standard-version -r major -n",
+    "release:minor": "standard-version -r minor -n",
+    "release:patch": "standard-version -r patch -n",
+    "prerelease:alpha": "standard-version -p alpha -n",
+    "prerelease:beta": "standard-version -p beta -n",
+    "prerelease:rc": "standard-version -p rc -n"
   },
   "repository": {
     "type": "git",
@@ -21,12 +28,13 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.2",
     "husky": "^4.3.6",
     "standard-version": "^9.0.0"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "standard-version": {
