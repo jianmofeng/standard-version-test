@@ -1,13 +1,14 @@
 {
+  "header":'校宝SIS智慧校园',
   "types": [
     {"type": "feat", "section": "Features"},
     {"type": "fix", "section": "Bug Fixes"},
-    {"type": "chore"},
-    {"type": "docs"},
-    {"type": "style", "section": "样式修改"},
+    {"type": "chore", "section": "其他"},
+    {"type": "docs", "section": "文档"},
+    {"type": "style", "section": "样式"},
     {"type": "refactor", "section": "重构代码"},
-    {"type": "perf"},
-    {"type": "test"}
+    {"type": "perf", "section": "性能"},
+    {"type": "test", "section": "测试"}
   ]
 }
 
