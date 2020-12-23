@@ -1,4 +1,11 @@
 校宝SIS智慧校园
+### [0.3.1-beta.6](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.5...v0.3.1-beta.6) (2020-12-23)
+
+
+### 文档📖
+
+* xxxx ([fe7a0b9](https://github.com/jianmofeng/standard-version-test/commit/fe7a0b9b22ad3da30046472d71059f3958a31698))
+
 ### [0.3.1-beta.5](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.4...v0.3.1-beta.5) (2020-12-23)
 
 
