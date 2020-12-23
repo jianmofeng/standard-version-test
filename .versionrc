@@ -1,5 +1,5 @@
 {
-  "header":'校宝SIS智慧校园',
+  "header":"校宝SIS智慧校园",
   "types": [
     {"type": "feat", "section": "Features"},
     {"type": "fix", "section": "Bug Fixes"},
