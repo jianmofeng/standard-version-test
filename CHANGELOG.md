@@ -1,4 +1,11 @@
-校宝SIS智慧校园
+银魂版哆啦A梦很好听
+### [0.3.2](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.2) (2020-12-23)
+
+
+### 其他🐱‍👓
+
+* **设置:** 其他修改 ([41e2334](https://github.com/jianmofeng/standard-version-test/commit/41e2334721ab2f19894a6c3fa17842882eb4a547))
+
 ### [0.3.1](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.1) (2020-12-23)
 
 ### [0.3.1-rc.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-alpha.0...v0.3.1-rc.0) (2020-12-23)
