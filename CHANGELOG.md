@@ -1,17 +1,243 @@
-# Changelog
+银魂版哆啦A梦很好听
+### [0.3.8-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.7...v0.3.8-beta.0) (2020-12-23)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.2.3](https://github.com/jianmofeng/standard-version-test/compare/v0.2.0...v0.2.3) (2020-12-21)
+### 文档📖
 
-### [0.2.2](https://github.com/jianmofeng/standard-version-test/compare/v0.2.0...v0.2.2) (2020-12-21)
+* hhhhh ([c4c2feb](https://github.com/jianmofeng/standard-version-test/commit/c4c2feb289a58433964b874673b84926d64a4379))
 
-### [0.2.1](https://github.com/jianmofeng/standard-version-test/compare/v0.2.0...v0.2.1) (2020-12-21)
+### [0.3.7](https://github.com/jianmofeng/standard-version-test/compare/v0.3.7-beta.0...v0.3.7) (2020-12-23)
 
-## [0.2.0](https://github.com/jianmofeng/standard-version-test/compare/v0.1.4-beta.0...v0.2.0) (2020-12-21)
 
-### [0.1.4-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.1.3...v0.1.4-beta.0) (2020-12-21)
+### 回滚🙄
 
-### [0.1.3](https://github.com/jianmofeng/standard-version-test/compare/v0.1.2...v0.1.3) (2020-12-18)
+* Revert "💄0.3.7-beta.0" ([584c23a](https://github.com/jianmofeng/standard-version-test/commit/584c23a3a199945a4a80f3907bc4d3ef2027b128))
 
-### 0.1.2 (2020-12-18)
+### [0.3.6](https://github.com/jianmofeng/standard-version-test/compare/v0.3.6-beta.0...v0.3.6) (2020-12-23)
+
+
+### 回滚🙄
+
+* Revert "💄0.3.6-beta.0" ([77c6385](https://github.com/jianmofeng/standard-version-test/commit/77c63853709007ddcff2d89862bf762f38ecacea))
+
+### [0.3.5](https://github.com/jianmofeng/standard-version-test/compare/v0.3.4...v0.3.5) (2020-12-23)
+
+
+### Bug Fixes🛠
+
+* 删除commitlint设置 ([173d9b6](https://github.com/jianmofeng/standard-version-test/commit/173d9b6b2c823adad2722ee82f65491cd028529b))
+
+### [0.3.4](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.4) (2020-12-23)
+
+
+### 其他🐱‍👓
+
+* 格式修改 ([10a299e](https://github.com/jianmofeng/standard-version-test/commit/10a299e27b84f67e5d0fe4c369cc2c53cf324af2))
+* **设置:** 其他修改 ([41e2334](https://github.com/jianmofeng/standard-version-test/commit/41e2334721ab2f19894a6c3fa17842882eb4a547))
+
+### [0.3.3](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.3) (2020-12-23)
+
+
+### 其他🐱‍👓
+
+* 格式修改 ([10a299e](https://github.com/jianmofeng/standard-version-test/commit/10a299e27b84f67e5d0fe4c369cc2c53cf324af2))
+* **设置:** 其他修改 ([41e2334](https://github.com/jianmofeng/standard-version-test/commit/41e2334721ab2f19894a6c3fa17842882eb4a547))
+
+### [0.3.2](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.2) (2020-12-23)
+
+
+### 其他🐱‍👓
+
+* **设置:** 其他修改 ([41e2334](https://github.com/jianmofeng/standard-version-test/commit/41e2334721ab2f19894a6c3fa17842882eb4a547))
+
+### [0.3.1](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.1) (2020-12-23)
+
+### [0.3.1-rc.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-alpha.0...v0.3.1-rc.0) (2020-12-23)
+
+### [0.3.1-alpha.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.7...v0.3.1-alpha.0) (2020-12-23)
+
+### [0.3.1-beta.7](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.6...v0.3.1-beta.7) (2020-12-23)
+
+
+### Features👑
+
+* **html:** 文案修改为alert ([abb6957](https://github.com/jianmofeng/standard-version-test/commit/abb6957cb289c5732f139b3f8a1ac15a1cf2a540))
+
+### [0.3.1-beta.6](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.5...v0.3.1-beta.6) (2020-12-23)
+
+
+### 文档📖
+
+* xxxx ([fe7a0b9](https://github.com/jianmofeng/standard-version-test/commit/fe7a0b9b22ad3da30046472d71059f3958a31698))
+
+### [0.3.1-beta.5](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.4...v0.3.1-beta.5) (2020-12-23)
+
+
+### 文档📖
+
+* **changelog:** changelog 修改 ([b77cd64](https://github.com/jianmofeng/standard-version-test/commit/b77cd64eb882de5835ff7f74319a666172fa8e0d))
+
+### [0.3.1-beta.4](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.3...v0.3.1-beta.4) (2020-12-23)
+
+
+### 文档
+
+* issuePrefixe update ([fb6b69a](https://github.com/jianmofeng/standard-version-test/commit/fb6b69ae379336ad9b7483a329bfbaa36e0f161f))
+
+### [0.3.1-beta.3](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.2...v0.3.1-beta.3) (2020-12-23)
+
+
+### 文档
+
+* commit ([721d9d6](https://github.com/jianmofeng/standard-version-test/commit/721d9d6d31e9b10a81b99009811fc49e38bb1815))
+* **changelog:** changelog修改 ([815c125](https://github.com/jianmofeng/standard-version-test/commit/815c125acb34d9591dcb2c8f76fc3bb98611c7f5))
+
+### [0.3.1-beta.2](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.1...v0.3.1-beta.2) (2020-12-23)
+
+
+### 样式修改
+
+* 样式 ([28c4c4a](https://github.com/jianmofeng/standard-version-test/commit/28c4c4acaaa31153d5f3e040ddb38d17e339f02c))
+
+### [0.3.1-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.1...v0.3.1-beta.1) (2020-12-23)
+
+
+### Features
+
+* xxxx ([7732b6e](https://github.com/jianmofeng/standard-version-test/commit/7732b6e1e9c35e9530e19c3222c96774b6828625))
+
+
+### Bug Fixes
+
+* **none:** 1111 ([839b634](https://github.com/jianmofeng/standard-version-test/commit/839b634915850cb3cd1c4da47a6f5c367acdee41))
+
+### [0.3.1-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.1...v0.3.1-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **none:** 1111 ([839b634](https://github.com/jianmofeng/standard-version-test/commit/839b634915850cb3cd1c4da47a6f5c367acdee41))
+
+## [0.3.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.1...v0.3.0) (2020-12-22)
+
+## [0.3.0-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0-beta.0...v0.3.0-beta.1) (2020-12-22)
+
+## [0.3.0-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.11-beta.0...v0.3.0-beta.0) (2020-12-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* 看看破坏性更新是否会生成在CHANGELOG中
+
+* cHANGELOG修改 ([24bedbd](https://github.com/jianmofeng/standard-version-test/commit/24bedbd174f543182130788e857b83cc49703976))
+
+### [0.2.11-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10...v0.2.11-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **范围:** 增加了husky和commitlint ([6ee1303](https://github.com/jianmofeng/standard-version-test/commit/6ee13030746b11446250e21ee78c7d644f353300))
+
+### [0.2.10](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.5...v0.2.10) (2020-12-22)
+
+
+### Features
+
+* **package修改:** xiugai ([021c83c](https://github.com/jianmofeng/standard-version-test/commit/021c83c15a63c0653a012a9f1c664a169c5fa908))
+
+
+### Bug Fixes
+
+* **02:** 文件修改 ([2976c12](https://github.com/jianmofeng/standard-version-test/commit/2976c129634364fdafc7734440d451e0ca7561ae))
+
+### [0.2.10-beta.5](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.4...v0.2.10-beta.5) (2020-12-22)
+
+### [0.2.10-beta.4](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.3...v0.2.10-beta.4) (2020-12-22)
+
+### [0.2.10-beta.3](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.2...v0.2.10-beta.3) (2020-12-22)
+
+
+### Features
+
+* shanchu... ([f1826a0](https://github.com/jianmofeng/standard-version-test/commit/f1826a0d10099b9a76888402ed9373c4f400985c))
+
+
+### Bug Fixes
+
+* 删除数字 ([b9715fe](https://github.com/jianmofeng/standard-version-test/commit/b9715fe3d9ee877323531d132f1c8ce4e38f60d0))
+
+### [0.2.10-beta.2](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.1...v0.2.10-beta.2) (2020-12-22)
+
+
+### Features
+
+* add No.5 ([a557aa9](https://github.com/jianmofeng/standard-version-test/commit/a557aa984106cf9d74ab858de7b81256e282a955))
+
+### [0.2.10-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.2.10-beta.0...v0.2.10-beta.1) (2020-12-22)
+
+
+### Bug Fixes
+
+* delete. ([8e2de7d](https://github.com/jianmofeng/standard-version-test/commit/8e2de7d4c074057d084876f35f4feb3b815a6362))
+
+### [0.2.10-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.0...v0.2.10-beta.0) (2020-12-22)
+
+
+### Features
+
+* add. ([e192f9c](https://github.com/jianmofeng/standard-version-test/commit/e192f9c42720473dcb9da35b0da7b3471209b04a))
+
+### [0.3.1-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.3.0...v0.3.1-beta.0) (2020-12-22)
+
+## [0.3.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.7-beta.1...v0.3.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* 加个空格 ([99a4ea9](https://github.com/jianmofeng/standard-version-test/commit/99a4ea943c056bdb9e99000d52d2f545987d1752))
+
+### [0.2.7-beta.1](https://github.com/jianmofeng/standard-version-test/compare/v0.2.7-beta.0...v0.2.7-beta.1) (2020-12-22)
+
+
+### Bug Fixes
+
+* 假装修复问题 ([5e29b1c](https://github.com/jianmofeng/standard-version-test/commit/5e29b1ca733312be9b1a84199c3428ac11c47009))
+
+### [0.2.7-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.6...v0.2.7-beta.0) (2020-12-22)
+
+
+### Bug Fixes
+
+* **src:** 修复问题 ([d08646e](https://github.com/jianmofeng/standard-version-test/commit/d08646e57e76604201bc8b6bc8b3e17b5b65d230))
+* 1111 ([6b7903c](https://github.com/jianmofeng/standard-version-test/commit/6b7903c6c5f028fe75897d99cdb75bc55f748f71))
+
+## [0.2.6](https://github.com/jianmofeng/standard-version-test/compare/v0.2.6-bate.0...v0.2.6) (2020-12-21)
+
+
+
+## [0.2.6-bate.0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.5-0...v0.2.6-bate.0) (2020-12-21)
+
+
+
+## [0.2.5-0](https://github.com/jianmofeng/standard-version-test/compare/v0.2.4...v0.2.5-0) (2020-12-21)
+
+
+
+## [0.2.4](https://github.com/jianmofeng/standard-version-test/compare/v0.2.3...v0.2.4) (2020-12-21)
+
+
+
+## [0.2.3](https://github.com/jianmofeng/standard-version-test/compare/v0.2.0...v0.2.3) (2020-12-21)
+
+
+
+## [0.1.4-beta.0](https://github.com/jianmofeng/standard-version-test/compare/v0.1.3...v0.1.4-beta.0) (2020-12-21)
+
+
+
+## [0.1.2](https://github.com/jianmofeng/standard-version-test/compare/941b0894f6cae12e180ba05b8d164cc6d778cfc5...v0.1.2) (2020-12-18)
+
+
+### Reverts
+
+* Revert "ignore修改" ([941b089](https://github.com/jianmofeng/standard-version-test/commit/941b0894f6cae12e180ba05b8d164cc6d778cfc5))

@@ -1,11 +1,17 @@
 {
   "name": "test",
-  "version": "0.2.3",
+  "version": "0.3.8-beta.0",
   "description": "这是一个standard-version预研项目",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:major": "standard-version -r major -n",
+    "release:minor": "standard-version -r minor -n",
+    "release:patch": "standard-version -r patch -n",
+    "prerelease:alpha": "standard-version -p alpha -n",
+    "prerelease:beta": "standard-version -p beta -n",
+    "prerelease:rc": "standard-version -p rc -n"
   },
   "repository": {
     "type": "git",
@@ -18,14 +24,17 @@
   },
   "homepage": "https://github.com/jianmofeng/standard-version-test#readme",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "husky": "^4.3.6",
     "standard-version": "^9.0.0"
   },
   "standard-version": {
     "scripts": {
       "skip": {
-        "changelog": true
-      },
-      "release": "standard-version"
+        "tag": true
+      }
     }
   }
 }
