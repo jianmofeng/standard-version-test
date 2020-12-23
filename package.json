@@ -33,7 +33,7 @@
   "standard-version": {
     "scripts": {
       "skip": {
-        "changelog": true
+        "tag": true
       }
     }
   }
