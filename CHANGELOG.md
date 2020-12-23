@@ -1,4 +1,11 @@
 银魂版哆啦A梦很好听
+### [0.3.6](https://github.com/jianmofeng/standard-version-test/compare/v0.3.6-beta.0...v0.3.6) (2020-12-23)
+
+
+### 回滚🙄
+
+* Revert "💄0.3.6-beta.0" ([77c6385](https://github.com/jianmofeng/standard-version-test/commit/77c63853709007ddcff2d89862bf762f38ecacea))
+
 ### [0.3.5](https://github.com/jianmofeng/standard-version-test/compare/v0.3.4...v0.3.5) (2020-12-23)
 
 
