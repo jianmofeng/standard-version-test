@@ -1,0 +1,13 @@
+{
+  "types": [
+    {"type": "feat", "section": "Features"},
+    {"type": "fix", "section": "Bug Fixes"},
+    {"type": "chore"},
+    {"type": "docs"},
+    {"type": "style", "section": "样式修改"},
+    {"type": "refactor", "section": "重构代码"},
+    {"type": "perf"},
+    {"type": "test"}
+  ]
+}
+
