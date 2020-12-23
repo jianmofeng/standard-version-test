@@ -6,9 +6,10 @@
     {"type": "chore", "section": "其他🐱‍👓"},
     {"type": "docs", "section": "文档📖"},
     {"type": "style", "section": "样式✨"},
-    {"type": "refactor", "section": "重构代码💄"},
+    {"type": "refactor", "section": "重构代码⌨"},
     {"type": "perf", "section": "性能🎠"},
-    {"type": "test", "section": "测试⛏"}
+    {"type": "test", "section": "测试⛏"},
+    {"type": "revert", "section": "回滚🙄"}
   ],
   "issuePrefixes":[
     "#"
