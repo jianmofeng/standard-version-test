@@ -12,6 +12,7 @@
   ],
   "issuePrefixes":[
     "#"
-  ]
+  ],
+  "releaseCommitMessageFormat": "💄{{currentTag}}"
 }
 
