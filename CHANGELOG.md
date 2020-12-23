@@ -1,4 +1,11 @@
 银魂版哆啦A梦很好听
+### [0.3.5](https://github.com/jianmofeng/standard-version-test/compare/v0.3.4...v0.3.5) (2020-12-23)
+
+
+### Bug Fixes🛠
+
+* 删除commitlint设置 ([173d9b6](https://github.com/jianmofeng/standard-version-test/commit/173d9b6b2c823adad2722ee82f65491cd028529b))
+
 ### [0.3.4](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-rc.0...v0.3.4) (2020-12-23)
 
 
