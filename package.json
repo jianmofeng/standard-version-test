@@ -1,13 +1,11 @@
 {
   "name": "test",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "这是一个standard-version预研项目",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "commit": "git-cz",
     "release:major": "standard-version -r major -n",
     "release:minor": "standard-version -r minor -n",
     "release:patch": "standard-version -r patch -n",
@@ -31,11 +29,6 @@
     "commitizen": "^4.2.2",
     "husky": "^4.3.6",
     "standard-version": "^9.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "standard-version": {
     "scripts": {
