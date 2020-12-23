@@ -1,6 +1,11 @@
-# Changelog
+校宝SIS智慧校园
+### [0.3.1-beta.3](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.2...v0.3.1-beta.3) (2020-12-23)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 文档
+
+* commit ([721d9d6](https://github.com/jianmofeng/standard-version-test/commit/721d9d6d31e9b10a81b99009811fc49e38bb1815))
+* **changelog:** changelog修改 ([815c125](https://github.com/jianmofeng/standard-version-test/commit/815c125acb34d9591dcb2c8f76fc3bb98611c7f5))
 
 ### [0.3.1-beta.2](https://github.com/jianmofeng/standard-version-test/compare/v0.3.1-beta.1...v0.3.1-beta.2) (2020-12-23)
 
