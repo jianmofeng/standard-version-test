@@ -10,7 +10,7 @@
     {"type": "perf", "section": "性能🎠"},
     {"type": "test", "section": "测试⛏"},
     {"type": "revert", "section": "回滚🙄"},
-    {"type": "balabala", "section": "😶",hidden:true}
+    {"type": "balabala", "hidden": true}
   ],
   "issuePrefixes":[
     "#"
