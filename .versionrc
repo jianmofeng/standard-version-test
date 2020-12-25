@@ -9,7 +9,8 @@
     {"type": "refactor", "section": "重构代码⌨"},
     {"type": "perf", "section": "性能🎠"},
     {"type": "test", "section": "测试⛏"},
-    {"type": "revert", "section": "回滚🙄"}
+    {"type": "revert", "section": "回滚🙄"},
+    {"type": "balabala", "section": "😶"}
   ],
   "issuePrefixes":[
     "#"
